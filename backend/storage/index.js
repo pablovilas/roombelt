@@ -7,5 +7,10 @@ module.exports = class {
     this.login = new Login(sequelize);
     this.oauth = new OAuth(sequelize);
     this.devices = new Devices(sequelize);
+
+    sequelize.sync().catch(error => {
+      console.error(error.message);
+      process.exit(1);
+    });
   }
 };
