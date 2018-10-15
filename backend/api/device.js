@@ -25,7 +25,7 @@ router.get("/device", async function(req, res) {
   res.json({
     isCalendarSelected: true,
     name: calendar.summary,
-    language: req.context.device.language,
+    language: process.env['REFRESH_LANG'] || req.context.device.language,
     canModifyEvents: calendar.accessRole === "writer" || calendar.accessRole === "owner",
     events
   });
