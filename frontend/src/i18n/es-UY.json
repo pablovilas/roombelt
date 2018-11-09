@@ -1,0 +1,45 @@
+{
+  "key": "es-UY",
+  "language": "Español",
+  "availability": {
+    "available": "Disponible",
+    "available-for": "Disponible para {{ time }}",
+    "whole-day": "Disponible todo el día",
+    "occupied": "Ocupada",
+    "starts": {
+      "now": "Comienza ahora",
+      "ago": "Comenzó hace 1 minuto",
+      "ago_plural": "Comenzó hace {{ count }} minutos",
+      "in": "Comienza en 1 minuto",
+      "in_plural": "Comienza en {{ count }} minutos"
+    }
+  },
+  "meeting": {
+    "no-title": "(Sin título)",
+    "guests_0": "y 1 invitado",
+    "guests_1": "y {{ count }} invitados",
+    "next": "Próxima reunión hoy",
+    "quick-meeting-title": "Reunión en {{ roomName }}"
+  },
+  "actions": {
+    "end-now": "Termina ahora",
+    "confirm": "Confirmar",
+    "extend": "Extender",
+    "back": "Volver",
+    "cancel": "Cancelar",
+    "retry": "Reintentar",
+    "check-in": "Check in",
+    "start-early": "Comienza antes",
+    "cancel-meeting": "Cancelar reunión"
+  },
+  "full-screen": "Full screen",
+  "errors": {
+    "unable-to-connect-server": "No se puede conectar al servidor",
+    "check-internet-and-try-again": "Verificar la conexión a internet e intentar de nuevo",
+    "action-error-title": "Ocurrió un error",
+    "action-error-subtitle": "Si el problema persiste contacte a Infraestructura",
+    "refresh-page": "Refrescar página",
+    "device-disconnected-title": "Dispositivo desconectado",
+    "device-disconnected-message": "El dispositivo se desconectó. ¿Quiere conectarlo nuevamente?"
+  }
+}

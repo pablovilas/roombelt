@@ -39,13 +39,6 @@ class MeetingCheckedIn extends React.PureComponent {
 
     return (
       <React.Fragment>
-        <Button white
-                disabled={currentActionSource !== null}
-                onClick={() => this.setState({ idOfMeetingToEnd: currentMeetingId })}
-                style={{ marginRight: 20 }}>
-          {i18next.t("actions.end-now")}
-        </Button>
-
         {minutesToNextMeeting > 0 && (
           <ButtonSet>
             <Button success disabled>{i18next.t("actions.extend")}</Button>

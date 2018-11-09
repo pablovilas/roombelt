@@ -38,10 +38,6 @@ class MeetingNeedsCheckIn extends React.PureComponent {
                                                     onClick={() => startMeetingEarly("start-early")}
                                                     isLoading={currentActionSource === "start-early"}
                                                     children={i18next.t("actions.start-early")}/>}
-
-        <Button white onClick={() => this.setState({ idOfMeetingToCancel: currentMeetingId })}>
-          {i18next.t("actions.cancel-meeting")}
-        </Button>
       </React.Fragment>
     );
   }
